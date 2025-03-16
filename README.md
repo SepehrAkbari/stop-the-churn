@@ -4,32 +4,6 @@ Customer churn prediction is a common challenge for many companies. It is crucia
 
 In this project, we use machine learning models to predict customer churn based on a telecommunication company dataset. This exploration covers data preprocessing, exploratory data analysis (EDA), model comparison, and the deployment of the best model in a Flask web app for real-time predictions.
 
-## Approach
-
-- **Data Preprocessing:** 
-
-  - Filtered irrelevant columns, encoded categorical variables, and imputed missing values (numeric values with mean imputation and categorical values using a Random Forest Regressor). 
-
-  - One-hot encoding was performed, and the data was resampled using SMOTE to address class imbalance.
-
-- **Exploratory Data Analysis:** 
-
-  - Explored the distribution of the dataset’s features and analyzed their correlation with the target variable (Churn). 
-
-  - Notably, features such as customer complaints exhibited a high positive correlation, while tenure showed a strong negative correlation with churn.
-
-- **Model Comparison:** 
-
-  - Discussed the limitations of using linear regression for this problem, and compared models including Logistic Regression, K-Nearest Neighbors (with three distance metrics), Linear and Kernel SVM, Random Forest, and boosting models (Gradient Boosting, XGBoost, and CatBoost). 
-
-  - Models were evaluated using metrics like MSE, R-squared, accuracy, precision, recall, and F1 score. 
-
-  - The XGBoost model was selected as the best performing model, achieving an F1 score of 94%.
-
-- **Deployment:** 
-
-  - The XGBoost model is deployed via a Flask web app, allowing administrators to input customer data and receive real-time churn predictions.
-
 ## App Demo
 
 Inputting costumer data:
@@ -70,6 +44,32 @@ To launch the Flask app:
 ```bash
 flask run
 ```
+
+## Approach
+
+- **Data Preprocessing:** 
+
+  - Filtered irrelevant columns, encoded categorical variables, and imputed missing values (numeric values with mean imputation and categorical values using a Random Forest Regressor). 
+
+  - One-hot encoding was performed, and the data was resampled using SMOTE to address class imbalance.
+
+- **Exploratory Data Analysis:** 
+
+  - Explored the distribution of the dataset’s features and analyzed their correlation with the target variable (Churn). 
+
+  - Notably, features such as customer complaints exhibited a high positive correlation, while tenure showed a strong negative correlation with churn.
+
+- **Model Comparison:** 
+
+  - Discussed the limitations of using linear regression for this problem, and compared models including Logistic Regression, K-Nearest Neighbors (with three distance metrics), Linear and Kernel SVM, Random Forest, and boosting models (Gradient Boosting, XGBoost, and CatBoost). 
+
+  - Models were evaluated using metrics like MSE, R-squared, accuracy, precision, recall, and F1 score. 
+
+  - The XGBoost model was selected as the best performing model, achieving an F1 score of 94%.
+
+- **Deployment:** 
+
+  - The XGBoost model is deployed via a Flask web app, allowing administrators to input customer data and receive real-time churn predictions.
 
 ## Contributing
 
