@@ -77,4 +77,4 @@ To contribute to this project, you can fork this repository and create pull requ
 
 ## License
 
-This project is licensed under the [GNU General Public License (GPL)](../LICENSE).
+This project is licensed under the [GNU General Public License (GPL)](/LICENSE).
