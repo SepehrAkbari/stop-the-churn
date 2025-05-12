@@ -2,7 +2,7 @@
 
 Customer churn prediction is a common challenge for many companies. It is crucial for businesses to identify customers who are likely to churn so they can take proactive measures to retain them. Additionally, understanding the factors that contribute to churn is beneficial for improving customer satisfaction. 
 
-In this project, we use machine learning models to predict customer churn based on a telecommunication company dataset. This exploration covers data preprocessing, exploratory data analysis (EDA), model comparison, and the deployment of the best model in a Flask web app for real-time predictions.
+In this project, we use machine learning models to predict customer churn based on a telecommunication company data.
 
 ## App Demo
 
@@ -16,15 +16,15 @@ Predictions:
 
 ## Data
 
-The dataset used in this project is sourced from a telecommunication company and contains 5630 rows and 20 columns. The dataset is available in the `Data` folder and can also be downloaded from [Kaggle](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction).
+The dataset used in this project is sourced from a telecommunication company and contains 5630 rows and 20 columns. The dataset is available in the `data` folder and can also be downloaded from [Kaggle](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction).
 
 ## Usage
 
 To run the project, first clone the repository:
 
 ```bash
-git clone https://github.com/SepehrAkbari/Stop-the-Churn
-cd Stop-the-Churn
+git clone https://github.com/SepehrAkbari/stop-the-churn
+cd stop-the-churn
 ```
 
 Install the required libraries:
@@ -33,15 +33,16 @@ Install the required libraries:
 pip install -r requirements.txt
 ```
 
-To explore the analysis, run the Jupyter Notebook located in the `Notebook` folder:
+To explore the analysis, run the Jupyter Notebook located in the `notebook` folder:
 
 ```bash
-jupyter notebook Notebooks/main.ipynb
+jupyter notebook notebooks/stop-the-churn.ipynb
 ```
 
 To launch the Flask app:
 
 ```bash
+cd app
 flask run
 ```
 
