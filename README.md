@@ -8,11 +8,11 @@ In this project, we use machine learning models to predict customer churn based 
 
 Inputting costumer data:
 
-![Input](Demo/page1.jpeg)
+![Input](app/demo/page1.jpeg)
 
 Predictions:
 
-![Predictions](Demo/page2.jpeg)
+![Predictions](app/demo/page2.jpeg)
 
 ## Data
 
