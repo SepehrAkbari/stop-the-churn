@@ -1,3 +1,2 @@
 *.ipynb linguist-language=Python
-*.html linguist-language=Jinja
 *.json linguist-language=JSON
