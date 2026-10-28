@@ -1,4 +1,4 @@
-from preprocess import *
+from clf.src.preprocess import *
 import numpy as np
 import pandas as pd
 import pickle
