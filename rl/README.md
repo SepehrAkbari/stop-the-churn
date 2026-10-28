@@ -1,6 +1,6 @@
 # Learning Retention Strategies
 
-Preventing subscription customer churn requires balancing proactive interventions against their financial costs over a lifecycle. In this directory, a tabular reinforcement learning approach is implemented to train an agent to maximize customer lifetime value.
+Preventing subscription customer churn requires balancing proactive interventions against their financial costs over a lifecycle. In this directory, a very simple tabular reinforcement learning approach is implemented to train an agent to maximize customer lifetime value.
 
 ## Environments
 
